@@ -101,8 +101,7 @@ header {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('background.jpg');
-    background-size: cover;
+    background-color: #E6E7E9;
     background-position: center;
     display: flex;
     align-items: center;
