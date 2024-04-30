@@ -45,7 +45,8 @@ header {
     transition: .3s;
     cursor: pointer;
     position: relative;
-    border: none;
+    border: #555;
+    border-radius: 10px;
     background: none;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
@@ -56,6 +57,8 @@ header {
 
 .navigation a:hover, .navigation a:focus {
     color: #7d2ae8;
+    border-radius: 50px;
+    border: #7d2ae8;
 }
 
 .navigation a:focus:after,
