@@ -50,6 +50,8 @@ header {
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: color;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation a:hover, .navigation a:focus {
