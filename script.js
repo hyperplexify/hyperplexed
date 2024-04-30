@@ -1,5 +1,5 @@
 // Get the element to apply the gradient to
-const element = document.body;
+const element = document.getElementById('bkg');
 
 // Track mouse position
 element.addEventListener('mousemove', (e) => {
