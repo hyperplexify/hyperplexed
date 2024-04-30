@@ -15,7 +15,7 @@
 
     <header>
         <h2 class="logo"><span>Hyper</span>plexify</h2>
-        <nav class="navigation">
+        <nav class="navigation"; id="navbar">
             <a href="#">Home</a>
             <a href="about.html">About</a>
             <a href="#">Portfolio</a>
@@ -38,9 +38,23 @@
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         </div>
     </section>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("navbar");
+          if (x.className === "navigation") {
+            x.className += " responsive";
+          } else {
+            x.className = "navigation";
+          }
+        }
+    </script>
 
 </body>
 
