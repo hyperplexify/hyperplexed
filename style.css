@@ -31,6 +31,9 @@ header {
 
 .navigation {
     margin-left: -300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigation a {
